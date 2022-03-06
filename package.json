@@ -1,6 +1,5 @@
 {
   "name": "dev-job-board",
-  "homepage":"https://virus936.github.io/dev-job-board-frontendmentor/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
