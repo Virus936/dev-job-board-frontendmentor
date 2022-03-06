@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa5bd8ba.css",
-    "main.js": "/static/js/main.1d2b8b2f.js",
-    "static/js/787.e3a73fcc.chunk.js": "/static/js/787.e3a73fcc.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.8c0b644930f3fa038b452bce0d4b876d.svg",
-    "static/media/icon-sun.svg": "/static/media/icon-sun.9422c1533b01125b84568d2f0c6212b9.svg",
-    "static/media/bg-pattern-header.svg": "/static/media/bg-pattern-header.f3307602ee5e7c6b4f50428cf0794a8c.svg",
-    "index.html": "/index.html",
-    "static/media/icon-moon.svg": "/static/media/icon-moon.038e80ca9ba2097f62576a3abd76df81.svg",
-    "static/media/icon-location.svg": "/static/media/icon-location.325ff3d99912e5505f5cf31f67518b0c.svg",
-    "static/media/icon-search-purple.svg": "/static/media/icon-search-purple.09900c2e3c8743161876925423fc7460.svg",
-    "main.fa5bd8ba.css.map": "/static/css/main.fa5bd8ba.css.map",
-    "main.1d2b8b2f.js.map": "/static/js/main.1d2b8b2f.js.map",
-    "787.e3a73fcc.chunk.js.map": "/static/js/787.e3a73fcc.chunk.js.map"
+    "main.css": "/dev-job-board-frontendmentor/static/css/main.fa5bd8ba.css",
+    "main.js": "/dev-job-board-frontendmentor/static/js/main.831986c1.js",
+    "static/js/787.e3a73fcc.chunk.js": "/dev-job-board-frontendmentor/static/js/787.e3a73fcc.chunk.js",
+    "static/media/logo.svg": "/dev-job-board-frontendmentor/static/media/logo.8c0b644930f3fa038b452bce0d4b876d.svg",
+    "static/media/icon-sun.svg": "/dev-job-board-frontendmentor/static/media/icon-sun.9422c1533b01125b84568d2f0c6212b9.svg",
+    "static/media/bg-pattern-header.svg": "/dev-job-board-frontendmentor/static/media/bg-pattern-header.f3307602ee5e7c6b4f50428cf0794a8c.svg",
+    "index.html": "/dev-job-board-frontendmentor/index.html",
+    "static/media/icon-moon.svg": "/dev-job-board-frontendmentor/static/media/icon-moon.038e80ca9ba2097f62576a3abd76df81.svg",
+    "static/media/icon-location.svg": "/dev-job-board-frontendmentor/static/media/icon-location.325ff3d99912e5505f5cf31f67518b0c.svg",
+    "static/media/icon-search-purple.svg": "/dev-job-board-frontendmentor/static/media/icon-search-purple.09900c2e3c8743161876925423fc7460.svg",
+    "main.fa5bd8ba.css.map": "/dev-job-board-frontendmentor/static/css/main.fa5bd8ba.css.map",
+    "main.831986c1.js.map": "/dev-job-board-frontendmentor/static/js/main.831986c1.js.map",
+    "787.e3a73fcc.chunk.js.map": "/dev-job-board-frontendmentor/static/js/787.e3a73fcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa5bd8ba.css",
-    "static/js/main.1d2b8b2f.js"
+    "static/js/main.831986c1.js"
   ]
 }
