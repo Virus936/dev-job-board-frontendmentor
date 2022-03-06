@@ -8,14 +8,12 @@ import {colors, sizes} from '../styles/setting'
 import {useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 
-const url = 'http://localhost:3000/'
-
 const Offer = () => {
   const [firm, setFirm] = useState({})
 
   let {offerId} = useParams()
   useEffect(() => {
-    fetch(`${url}data.json`)
+    fetch(`/data.json`)
       .then(res => res.json())
       .then(res => res.filter(r => r.id === offerId))
       .then(res => setFirm(res[0]))

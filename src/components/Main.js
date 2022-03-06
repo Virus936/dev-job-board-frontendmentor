@@ -26,7 +26,7 @@ const Main = () => {
           .includes(filter.name.toUpperCase()))
         .filter(content=> content.location.toUpperCase()
           .includes(filter.location.toUpperCase()))
-        .filter(content => !filter.fulltime || content.contract=='Full Time' )
+        .filter(content => !filter.fulltime || content.contract==='Full Time' )
       .map((content,_index) => <Card 
               key={_index}
               {...content}
