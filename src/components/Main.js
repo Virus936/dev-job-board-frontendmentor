@@ -6,14 +6,13 @@ import Header from './Header'
 import { useSelector } from 'react-redux'
 import {colors} from '../styles/setting'
 
-const url = 'http://localhost:3000/'
 
 const Main = () => {
   const [contents, setContents] = useState("")
   const filter = useSelector((state) => state.filter.value)
 
   useEffect(() => {
-    fetch(`${url}data.json`)
+    fetch(`/data.json`)
       .then(res => res.json())
       .then(res => setContents(res))
   }, [])
