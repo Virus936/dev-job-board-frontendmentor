@@ -1,5 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'
-
+import { createSlice } from '@reduxjs/toolkit';
 
 export const darkSlice = createSlice({
   name: 'dark',
@@ -7,12 +6,18 @@ export const darkSlice = createSlice({
     value: false,
   },
   reducers: {
-    darktoggle: (state) => { state.value= !state.value },
-    setDark: state => { state.value = true },
-    setLight:state => { state.value = false },
+    darktoggle: (state) => {
+      state.value = !state.value;
+    },
+    setDark: (state) => {
+      state.value = true;
+    },
+    setLight: (state) => {
+      state.value = false;
+    },
   },
-})
+});
 
-export const {darktoggle, setDark,setLight} = darkSlice.actions
+export const { darktoggle, setDark, setLight } = darkSlice.actions;
 
-export default darkSlice.reducer
+export default darkSlice.reducer;

@@ -1,27 +1,27 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
 
 export const filterSlice = createSlice({
   name: 'filter',
   initialState: {
     value: {
-      location:'',
-      fulltime:false,
-      name:''
+      location: '',
+      fulltime: false,
+      name: '',
     },
   },
   reducers: {
     name: (state, action) => {
-      state.value.name = action.payload
+      state.value.name = action.payload;
     },
     location: (state, action) => {
-      state.value.location = action.payload
+      state.value.location = action.payload;
     },
     fulltimetoggle: (state) => {
-      state.value.fulltime = !state.value.fulltime
+      state.value.fulltime = !state.value.fulltime;
     },
   },
-})
+});
 
-export const {name, location, fulltimetoggle} = filterSlice.actions
+export const { name, location, fulltimetoggle } = filterSlice.actions;
 
-export default filterSlice.reducer
+export default filterSlice.reducer;
